@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-extend="res_config_edition">
+        <t t-jquery=".user-heading h3" t-operation="replace">
+            <h3>
+                东涛数字信息系统 <t t-esc="widget.server_version"/> (Professional Edition)
+            </h3>
+        </t>
+    </t>
+</templates>
