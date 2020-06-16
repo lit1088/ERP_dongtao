@@ -5,14 +5,14 @@
     'version' : '0.1',
     'sequence': 165,
     'category': 'Human Resources/Fleet',
-    'website' : 'https://www.baidu.com/page/fleet',
+    'website' : 'https://www.odoo.com/page/fleet',
     'summary' : 'Manage your fleet and track car costs',
     'description' : """
 Vehicle, leasing, insurances, cost
 ==================================
 With this module, Odoo helps you managing all your vehicles, the
 contracts associated to those vehicle as well as services, fuel log
-entries, costs and many other features necessary to the management
+entries, costs and many other features necessary to the management 
 of your fleet of vehicle(s)
 
 Main Features

@@ -8,7 +8,7 @@
     'sequence': 60,
     'summary': 'Purchase orders, tenders and agreements',
     'description': "",
-    'website': 'https://www.baidu.com/page/purchase',
+    'website': 'https://www.odoo.com/page/purchase',
     'depends': ['account'],
     'data': [
         'security/purchase_security.xml',

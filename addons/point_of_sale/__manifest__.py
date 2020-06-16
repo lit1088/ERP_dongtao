@@ -47,5 +47,5 @@
     'installable': True,
     'application': True,
     'qweb': ['static/src/xml/pos.xml'],
-    'website': 'https://www.baidu.com/page/point-of-sale-shop',
+    'website': 'https://www.odoo.com/page/point-of-sale-shop',
 }

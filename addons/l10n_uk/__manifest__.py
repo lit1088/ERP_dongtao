@@ -15,7 +15,7 @@ This is the latest UK Odoo localisation necessary to run Odoo accounting for UK 
     - InfoLogic UK counties listing
     - a few other adaptations""",
     'author': 'SmartMode LTD',
-    'website': 'https://www.baidu.com/page/accounting',
+    'website': 'https://www.odoo.com/page/accounting',
     'depends': [
         'account',
         'base_iban',

@@ -47,7 +47,7 @@
             <field name="sequence">0</field>
             <field name="tip_description" type="html">
 <div style="font-size: 14px;">
-    To reach your full potential with Odoo, have a look at our <a href="https://www.baidu.com/page/tour">apps videos</a> and discover new tools to work better and faster.
+    To reach your full potential with Odoo, have a look at our <a href="https://www.odoo.com/page/tour">apps videos</a> and discover new tools to work better and faster.
 </div>
             </field>
         </record>

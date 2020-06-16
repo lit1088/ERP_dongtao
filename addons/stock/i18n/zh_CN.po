@@ -1685,7 +1685,7 @@ msgstr "通过此仓库的默认路线"
 msgid ""
 "Define a minimum stock rule so that Odoo creates automatically requests for "
 "quotations or draft manufacturing orders to resupply your stock."
-msgstr "设定一个最小库存量规则，DongTaoBot 会依此自动计算需要采购或者生产的数量。"
+msgstr "设定一个最小库存量规则，Odoo会依此自动计算需要采购或者生产的数量。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_warehouse_form
@@ -3397,7 +3397,7 @@ msgstr "标记为待办"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_inventory_control
 msgid "Master Data"
-msgstr "产品信息"
+msgstr "主数据"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_max_qty
@@ -3803,7 +3803,7 @@ msgstr "作业类型(ZPL)"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
 msgid "Operations"
-msgstr "库存管理"
+msgstr "作业"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_type_list
@@ -3923,7 +3923,7 @@ msgstr "过度处理的产品名称"
 #: model:ir.ui.menu,name:stock.stock_picking_type_menu
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rules_report
 msgid "Overview"
-msgstr "仓库管理"
+msgstr "概览"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__partner_id

@@ -19,8 +19,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/app_odoo_customize/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "(Professional Edition)"
-msgstr "(专业版)"
+msgid "(Sunpop.cn Professional Edition)"
+msgstr "(Sunpop.cn 专业版)"
 
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.view_app_theme_config_settings
@@ -120,7 +120,7 @@ msgstr "配置设置"
 #: model:ir.actions.act_window,name:app_odoo_customize.action_app_theme_config
 #: model:ir.ui.menu,name:app_odoo_customize.menu_app_theme_config
 msgid "Customize Debrand"
-msgstr "东涛APP配置"
+msgstr "定制我的odoo"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,field_description:app_odoo_customize.field_res_config_settings__app_enterprise_url
@@ -277,8 +277,8 @@ msgstr "您确认要删除指定数据？"
 
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.replace_login
-msgid "Powered by <span>东涛数字信息系统</span>"
-msgstr "Powered by <span>东涛数字信息系统</span>"
+msgid "Powered by <span>odooApp</span>"
+msgstr "Powered by <span>Sunpop.cn</span>"
 
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.view_app_theme_config_settings
@@ -319,12 +319,12 @@ msgstr "显示我的帐户"
 #. module: app_odoo_customize
 #: model:ir.model.fields,field_description:app_odoo_customize.field_res_config_settings__module_odoo_referral
 msgid "Show Odoo Referral"
-msgstr "显示推荐"
+msgstr "显示Odoo推荐"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,field_description:app_odoo_customize.field_res_config_settings__app_show_poweredby
 msgid "Show Powered by Odoo"
-msgstr "显示Powered by..."
+msgstr "显示Powered by Odoo"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,field_description:app_odoo_customize.field_res_config_settings__app_show_debug
@@ -344,7 +344,7 @@ msgstr "在应用面板显示快速升级按键"
 #. module: app_odoo_customize
 #: model:ir.model.fields,field_description:app_odoo_customize.field_res_config_settings__app_show_share
 msgid "Show Share Dashboard"
-msgstr "显示分享"
+msgstr "显示分享Odoo"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,field_description:app_odoo_customize.field_res_config_settings__app_show_support
@@ -380,17 +380,17 @@ msgstr "不选中则会隐藏升级到企业版标签"
 #. module: app_odoo_customize
 #: model:ir.model.fields,help:app_odoo_customize.field_res_config_settings__app_show_share
 msgid "Uncheck to hide the Odoo Share Dashboard"
-msgstr "不选中则会隐藏分享"
+msgstr "不选中则会隐藏odoo分享"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,help:app_odoo_customize.field_res_config_settings__app_show_poweredby
 msgid "Uncheck to hide the Powered by text"
-msgstr "不勾选则不显示Powered by"
+msgstr "不勾选则不显示Odoo Powered by"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,help:app_odoo_customize.field_res_config_settings__module_odoo_referral
 msgid "Uncheck to remove the Odoo Referral"
-msgstr "不勾选则不显示推荐"
+msgstr "不勾选则不显示Odoo推荐"
 
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.app_module_view_kanban
@@ -424,8 +424,8 @@ msgstr "视图"
 
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.view_app_theme_config_settings
-msgid "Visit our website for more apps and Support. https://www.eastwavemall.com"
-msgstr "请访问我们的网站获取更多支持. http://www.eastwavemall.com"
+msgid "Visit our website for more apps and Support. https://www.sunpop.cn"
+msgstr "请访问我们的网站获取更多支持. http://www.sunpop.cn"
 
 #. module: app_odoo_customize
 #: model:ir.model.fields,help:app_odoo_customize.field_res_config_settings__app_show_account
@@ -460,17 +460,17 @@ msgstr "启用后，会显示快速调试菜单"
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.view_app_theme_config_settings
 msgid "White Label Setting"
-msgstr "APP设置"
+msgstr "个性化odoo设置"
 
 #. module: app_odoo_customize
 #. openerp-web
 #: code:addons/app_odoo_customize/static/src/xml/res_config_edition.xml:0
 #: model:ir.ui.menu,name:app_odoo_customize.menu_app_group
 #, python-format
-msgid "DongTaoApp"
-msgstr "DongTaoApp"
+msgid "odooApp"
+msgstr "odooApp"
 
-#. module: 东涛数字信息系统_customize
+#. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.view_app_theme_config_settings
-msgid "东涛数字信息系统 Customize Settings"
-msgstr "东涛数字信息系统"
+msgid "odooApp Customize Settings"
+msgstr "odooApp 定制化设置"

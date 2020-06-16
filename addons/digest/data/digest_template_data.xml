@@ -140,7 +140,7 @@
                 <tr>
                     <td style="border-collapse: collapse; margin: 0; padding: 10px 20px;">
                         % if user.has_group('base.group_system'):
-                            <div style="margin-top: 20px;">
+                            <div style="margin-top: 20px;"> 
                                 Want to customize this email?
                                 <a href="/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}" target="_blank" style="color: #875A7B;">Choose the metrics you care about</a>
                             </div>
@@ -149,7 +149,7 @@
                         <p style="font-size: 11px; margin-top: 10px;">
                             <strong>
                                 Sent by
-                                <a href="https://www.baidu.com" style="text-decoration: none; color: #875A7B;">Odoo</a> - <a href="/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}" target="_blank" style="color: #888888;">Unsubscribe</a>
+                                <a href="https://www.odoo.com" style="text-decoration: none; color: #875A7B;">Odoo</a> - <a href="/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}" target="_blank" style="color: #888888;">Unsubscribe</a>
                             </strong>
                         </p>
                     </td>

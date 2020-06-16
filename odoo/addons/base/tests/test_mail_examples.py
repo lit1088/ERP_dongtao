@@ -73,9 +73,9 @@ QUOTE_BLOCKQUOTE = u"""<html>
     </div>
     <blockquote
 cite="mid:CAEJSRZvWvud8c6Qp=wfNG6O1+wK3i_jb33qVrF7XyrgPNjnyUA@mail.gmail.com"
-      type="cite"><base href="https://www.baidu.com">
+      type="cite"><base href="https://www.odoo.com">
       <div dir="ltr">Yep Dominique that is true, as Postgres was the
-        base of all same as Odoo and MySQL etc came much later.Â
+        base of all same as Odoo and MySQL etc came much later.Â 
         <div><br>
         </div>
         <div>Unfortunately many customers who ask for and ERP are with
@@ -92,7 +92,7 @@ cite="mid:CAEJSRZvWvud8c6Qp=wfNG6O1+wK3i_jb33qVrF7XyrgPNjnyUA@mail.gmail.com"
     on this Odoo mailinglist, but when you start implying that Postgres
     is not well documented it really hurts.<br>
     <br>
-    <pre class="moz-signature" cols="72">--
+    <pre class="moz-signature" cols="72">-- 
 Opener B.V. - Business solutions driven by open source collaboration
 
 Stefan Rijnhart - Consultant/developer
@@ -104,7 +104,7 @@ web: <a class="moz-txt-link-freetext" href="https://opener.am">https://opener.am
 </html>"""
 
 QUOTE_BLOCKQUOTE_IN = [u"""<blockquote cite="mid:CAEJSRZvWvud8c6Qp=wfNG6O1+wK3i_jb33qVrF7XyrgPNjnyUA@mail.gmail.com" type="cite" data-o-mail-quote-node="1" data-o-mail-quote="1">"""]
-QUOTE_BLOCKQUOTE_OUT = [u"""--
+QUOTE_BLOCKQUOTE_OUT = [u"""-- 
 Opener B.V. - Business solutions driven by open source collaboration
 
 Stefan Rijnhart - Consultant/developer"""]
@@ -130,7 +130,7 @@ cite="mid:CAP76m_WWFH2KVrbjOxbaozvkmbzZYLWJnQ0n0sy9XpGaCWRf1g@mail.gmail.com"
     </blockquote>
     Top cool !!!<br>
     <br>
-    <pre class="moz-signature" cols="72">--
+    <pre class="moz-signature" cols="72">-- 
 Raoul Poilvache
 </pre>
   </body>
@@ -138,7 +138,7 @@ Raoul Poilvache
 
 
 QUOTE_THUNDERBIRD_HTML_IN = [u"""<blockquote cite="mid:CAP76m_WWFH2KVrbjOxbaozvkmbzZYLWJnQ0n0sy9XpGaCWRf1g@mail.gmail.com" type="cite" data-o-mail-quote-node="1" data-o-mail-quote="1">"""]
-QUOTE_THUNDERBIRD_HTML_OUT = [u"""<pre class="moz-signature" cols="72"><span data-o-mail-quote="1">--
+QUOTE_THUNDERBIRD_HTML_OUT = [u"""<pre class="moz-signature" cols="72"><span data-o-mail-quote="1">-- 
 Raoul Poilvache
 </span></pre>"""]
 
@@ -198,7 +198,7 @@ QUOTE_THUNDERBIRD_1 = u"""<div>On 11/08/2012 05:29 PM,
     </blockquote>
     Ok for me. I am replying directly below your mail, using Thunderbird, with a signature.<br><br>
     Did you receive my email about my new laptop, by the way ?<br><br>
-    Raoul.<br><pre>--
+    Raoul.<br><pre>-- 
 Raoul Grosbedonn&#233;e
 </pre>"""
 
@@ -206,7 +206,7 @@ QUOTE_THUNDERBIRD_1_IN = [
     u'<a href="mailto:dummy@example.com">dummy@example.com</a> ',
     u'<blockquote data-o-mail-quote-node="1" data-o-mail-quote="1">',
     u'Ok for me. I am replying directly below your mail, using Thunderbird, with a signature.']
-QUOTE_THUNDERBIRD_1_OUT = [u"""--
+QUOTE_THUNDERBIRD_1_OUT = [u"""-- 
 Raoul Grosbedonnée
 """]
 
@@ -237,15 +237,15 @@ Of course. This seems viable.
 
 > 2012/10/27 Bert Tartopoils :
 >> blahblahblah (quote)?
->>
+>> 
 >> blahblahblah (quote)
->>
+>> 
 >> Bert TARTOPOILS
 >> bert.tartopoils@miam.miam
->>
->
->
-> --
+>> 
+> 
+> 
+> -- 
 > RaoulSignature
 
 --
@@ -259,15 +259,15 @@ TEXT_2_OUT = [u"""
 """
 > 2012/10/27 Bert Tartopoils :
 >> blahblahblah (quote)?
->>
+>> 
 >> blahblahblah (quote)
->>
+>> 
 >> Bert TARTOPOILS
 >> bert.tartopoils@miam.miam
->>
->
->
-> --
+>> 
+> 
+> 
+> -- 
 > RaoulSignature"""]
 
 # MISC
@@ -434,35 +434,35 @@ MSOFFICE_1_OUT = [u'I noticed you recently downloaded OpenERP.', 'Uou mentioned 
 # bug: read more not apparent, strange message in read more span
 BUG1 = u"""<pre>Hi Migration Team,
 
-Paragraph 1, blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+Paragraph 1, blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah.
 
-Paragraph 2, blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+Paragraph 2, blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah.
 
-Paragraph 3, blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+Paragraph 3, blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 blah blah blah blah blah blah blah blah.
 
 Thanks.
 
 Regards,
 
---
+-- 
 Olivier Laurent
 Migration Manager
 OpenERP SA
@@ -476,7 +476,7 @@ BUG_1_IN = [
     u'Paragraph 1'
 ]
 BUG_1_OUT = [u"""
---
+-- 
 Olivier Laurent
 Migration Manager
 OpenERP SA
@@ -498,7 +498,7 @@ REMOVE_CLASS = u"""
     <div role="dialog" tabindex="-1" aria-hidden="false" class="modal in" style="DISPLAY: block" data-backdrop="static">
         <div class="modal-dialog modal-lg">
             <div class="modal-content openerp">
-                <div class="modal-header">
+                <div class="modal-header"> 
                     <h4 class="modal-title">Odoo Error<span class="o_subtitle text-muted"></span></h4>
                 </div>
                 <div class="o_error_detail modal-body">

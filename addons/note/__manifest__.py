@@ -6,7 +6,7 @@
     'version': '1.0',
     'category': 'Tools',
     'description': "",
-    'website': 'https://www.baidu.com/page/notes',
+    'website': 'https://www.odoo.com/page/notes',
     'summary': 'Organize your work with memos',
     'sequence': 45,
     'depends': [

@@ -46,8 +46,8 @@ ThreadWidget.include({
 
     /**
      * @private
-     * @param {integer} messageID
-     * @param {string} content
+     * @param {integer} messageID 
+     * @param {string} content 
      */
     _openCreditErrorDialog: function (messageID, content) {
         var message = _.find(this._messages, function (message) {
@@ -66,8 +66,8 @@ ThreadWidget.include({
     },
     /**
      * @private
-     * @param {integer} messageID
-     * @param {string} content
+     * @param {integer} messageID 
+     * @param {string} content 
      */
     _openGenericErrorDialog: function (messageID, content) {
         var message = _.find(this._messages, function (message) {
@@ -219,7 +219,7 @@ ThreadWidget.include({
      */
     _onClickUnknownError: function (ev) {
         var messageID = $(ev.currentTarget).data('message-id');
-        var content = _t('<p>An unknown error occured. Please contact our <a href="https://www.baidu.com/help" target="new">support</a> for further assistance.</p>');
+        var content = _t('<p>An unknown error occured. Please contact our <a href="https://www.odoo.com/help" target="new">support</a> for further assistance.</p>');
         this._openGenericErrorDialog(messageID, content);
     },
 });

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* digest
-#
+# 
 # Translators:
 # Martin Trigaux, 2019
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
@@ -12,7 +12,7 @@
 # Felix Yuen <fyu@odoo.com>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
 # as co02 <asco02@163.com>, 2020
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
@@ -200,7 +200,7 @@ msgid ""
 "                        <p style=\"font-size: 11px; margin-top: 10px;\">\n"
 "                            <strong>\n"
 "                                Sent by\n"
-"                                <a href=\"https://www.baidu.com\" style=\"text-decoration: none; color: #875A7B;\">Odoo</a> - <a href=\"/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}\" target=\"_blank\" style=\"color: #888888;\">Unsubscribe</a>\n"
+"                                <a href=\"https://www.odoo.com\" style=\"text-decoration: none; color: #875A7B;\">Odoo</a> - <a href=\"/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}\" target=\"_blank\" style=\"color: #888888;\">Unsubscribe</a>\n"
 "                            </strong>\n"
 "                        </p>\n"
 "                    </td>\n"
@@ -353,7 +353,7 @@ msgstr ""
 "                        <p style=\"font-size: 11px; margin-top: 10px;\">\n"
 "                            <strong>\n"
 "                                发送自\n"
-"                                <a href=\"https://www.baidu.com\" style=\"text-decoration: none; color: #875A7B;\">Odoo</a> - <a href=\"/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}\" target=\"_blank\" style=\"color: #888888;\">退订</a>\n"
+"                                <a href=\"https://www.odoo.com\" style=\"text-decoration: none; color: #875A7B;\">Odoo</a> - <a href=\"/web#view_type=form&amp;model=digest.digest&amp;id=${object.id}\" target=\"_blank\" style=\"color: #888888;\">退订</a>\n"
 "                            </strong>\n"
 "                        </p>\n"
 "                    </td>\n"

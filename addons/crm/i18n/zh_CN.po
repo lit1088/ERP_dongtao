@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* crm
-#
+# 
 # Translators:
 # Maie <m@maie.name>, 2019
 # 老窦 北京 <2662059195@qq.com>, 2019
@@ -24,7 +24,7 @@
 # Shiping Lv <lvshiping@sina.com>, 2019
 # as co02 <asco02@163.com>, 2020
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
@@ -2805,7 +2805,7 @@ msgstr "例如, 产品定价"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.baidu.com"
+msgid "e.g. https://www.odoo.com"
 msgstr "例如：https://www.odoo.com"
 
 #. module: crm

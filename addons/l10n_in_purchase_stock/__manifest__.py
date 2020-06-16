@@ -15,7 +15,7 @@
     """,
 
     'author': "Odoo",
-    'website': "https://www.baidu.com",
+    'website': "https://www.odoo.com",
     'category': 'Accounting/Accounting',
     'version': '1.0',
 

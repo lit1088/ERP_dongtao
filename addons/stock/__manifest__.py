@@ -6,7 +6,7 @@
     'version': '1.1',
     'summary': 'Manage your stock and logistics activities',
     'description': "",
-    'website': 'https://www.baidu.com/page/warehouse',
+    'website': 'https://www.odoo.com/page/warehouse',
     'depends': ['product', 'barcodes'],
     'category': 'Operations/Inventory',
     'sequence': 13,

@@ -8,7 +8,7 @@
     'sequence': 75,
     'summary': 'Centralize employee information',
     'description': "",
-    'website': 'https://www.baidu.com/page/employees',
+    'website': 'https://www.odoo.com/page/employees',
     'images': [
         'images/hr_department.jpeg',
         'images/hr_employee.jpeg',

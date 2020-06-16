@@ -66,7 +66,7 @@ QUnit.module('MessagingMenu', {
     }
 });
 
-QUnit.test('messaging menu widget: rendering with DongTaoBot has a request', async function (assert) {
+QUnit.test('messaging menu widget: rendering with OdooBot has a request', async function (assert) {
     assert.expect(5);
 
     var messagingMenu = new MessagingMenu();
@@ -85,15 +85,15 @@ QUnit.test('messaging menu widget: rendering with DongTaoBot has a request', asy
     assert.containsOnce(messagingMenu, '.o_preview_info',
         "should display a preview in the messaging menu");
     assert.strictEqual(messagingMenu.$('.o_preview_name').text().trim(),
-        'DongTaoBot has a request',
-        "preview should display that DongTaoBot has a request");
+        'OdooBot has a request',
+        "preview should display that OdooBot has a request");
     assert.strictEqual(messagingMenu.$('.o_preview_counter').text().replace(/\s/g, ''),
         '(1)', "should display an counter of '1' next to the preview");
 
     messagingMenu.destroy();
 });
 
-QUnit.test('messaging menu widget: rendering without DongTaoBot has a request (denied)', async function (assert) {
+QUnit.test('messaging menu widget: rendering without OdooBot has a request (denied)', async function (assert) {
     assert.expect(3);
 
     window.Notification.permission = 'denied';
@@ -116,7 +116,7 @@ QUnit.test('messaging menu widget: rendering without DongTaoBot has a request (d
     messagingMenu.destroy();
 });
 
-QUnit.test('messaging menu widget: rendering without DongTaoBot has a request (accepted)', async function (assert) {
+QUnit.test('messaging menu widget: rendering without OdooBot has a request (accepted)', async function (assert) {
     assert.expect(3);
 
     window.Notification.permission = 'granted';

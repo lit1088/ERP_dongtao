@@ -21,7 +21,7 @@ class Channel(models.Model):
                 'public': 'private',
                 'channel_type': 'chat',
                 'email_send': False,
-                'name': 'DongTaoBot'
+                'name': 'OdooBot'
             })
             message = _("Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to help you discover its features.<br/><b>Try to send me an emoji :)</b>")
             channel.sudo().message_post(body=message, author_id=odoobot_id, message_type="comment", subtype="mail.mt_comment")

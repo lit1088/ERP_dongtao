@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
-#
+# 
 # Translators:
 # SHOM <shanmuxin@yeah.net>, 2019
 # Gary Wei <Gary.wei@elico-corp.com>, 2019
@@ -25,7 +25,7 @@
 # as co02 <asco02@163.com>, 2020
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # Felix Yuen <fyu@odoo.com>, 2020
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
@@ -2021,14 +2021,14 @@ msgstr "自动"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.baidu.com/logo.png"
-msgstr "https://www.baidu.com/logo.png"
+msgid "https://www.odoo.com/logo.png"
+msgstr "https://www.odoo.com/logo.png"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.baidu.com/mydocument"
+msgid "https://www.odoo.com/mydocument"
 msgstr ""
 
 #. module: web_editor

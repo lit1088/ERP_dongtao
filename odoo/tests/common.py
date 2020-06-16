@@ -205,7 +205,7 @@ class BaseCase(TreeCase, MetaCase('DummyCase', (object,), {})):
     initialized by subclasses.
     """
 
-    longMessage = True      # more verbose error message by default: https://www.baidu.com/r/Vmh
+    longMessage = True      # more verbose error message by default: https://www.odoo.com/r/Vmh
     warm = True             # False during warm-up phase (see :func:`warmup`)
 
     def cursor(self):
@@ -878,7 +878,7 @@ class ChromeBrowser():
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
         fname = '%s_screencast_%s.mp4' % (prefix, timestamp)
         outfile = os.path.join(self.screencasts_dir, fname)
-
+        
         try:
             ffmpeg_path = find_in_path('ffmpeg')
         except IOError:
@@ -2296,7 +2296,7 @@ class TagsSelector(object):
 
         test_module = getattr(test, 'test_module', None)
         test_class = getattr(test, 'test_class', None)
-        test_tags = test.test_tags | {test_module}  # module as test_tags deprecated, keep for retrocompatibility,
+        test_tags = test.test_tags | {test_module}  # module as test_tags deprecated, keep for retrocompatibility, 
         test_method = getattr(test, '_testMethodName', None)
 
         def _is_matching(test_filter):

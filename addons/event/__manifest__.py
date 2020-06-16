@@ -2,7 +2,7 @@
 {
     'name': 'Events Organization',
     'version': '1.0',
-    'website': 'https://www.baidu.com/page/events',
+    'website': 'https://www.odoo.com/page/events',
     'category': 'Marketing/Events',
     'summary': 'Trainings, Conferences, Meetings, Exhibitions, Registrations',
     'description': """

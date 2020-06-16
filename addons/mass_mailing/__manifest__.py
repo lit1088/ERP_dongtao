@@ -7,7 +7,7 @@
     'description': "",
     'version': '2.0',
     'sequence': 110,
-    'website': 'https://www.baidu.com/page/mailing',
+    'website': 'https://www.odoo.com/page/mailing',
     'category': 'Marketing/Email Marketing',
     'depends': [
         'contacts',

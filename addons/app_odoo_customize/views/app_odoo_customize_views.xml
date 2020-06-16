@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+
         <template id="assets_backend" name="app_odoo_customize assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
                 <link rel="stylesheet" type="text/scss" href="/app_odoo_customize/static/src/scss/app.scss"/>
@@ -8,9 +9,9 @@
             </xpath>
         </template>
         <!-- some odoo version not support, please remove this if you are using odoo9 -->
-<!--        <template id="replace_login" name="Login Layout" inherit_id="web.login_layout">-->
-<!--            <xpath expr="//a[@target='_blank']" position="replace">-->
-<!--                <a href="https://www.eastwavemall.com" target="_blank">Powered by <span>东涛数字信息系统</span></a>-->
-<!--            </xpath>-->
-<!--        </template>-->
+        <template id="replace_login" name="Login Layout" inherit_id="web.login_layout">
+            <xpath expr="//a[@target='_blank']" position="replace">
+                <a href="https://www.sunpop.cn" target="_blank">Powered by <span>odooApp</span></a>
+            </xpath>
+        </template>
 </odoo>

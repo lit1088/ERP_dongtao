@@ -256,7 +256,7 @@ var MailManager =  AbstractService.extend({
         return this._moderatedChannelIDs || [];
     },
     /**
-     * Get the DongTaoBot ID, which is the default authorID for transient messages
+     * Get the OdooBot ID, which is the default authorID for transient messages
      *
      * @returns {Array<string>}
      */

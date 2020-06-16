@@ -4,7 +4,7 @@
 {
     'name': 'Project',
     'version': '1.1',
-    'website': 'https://www.baidu.com/page/project-management',
+    'website': 'https://www.odoo.com/page/project-management',
     'category': 'Operations/Project',
     'sequence': 10,
     'summary': 'Organize and schedule your projects ',

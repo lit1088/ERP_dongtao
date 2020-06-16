@@ -23,8 +23,8 @@ var MailBotService =  AbstractService.extend({
     //--------------------------------------------------------------------------
 
     /**
-     * Get the previews related to the DongTaoBot (conversation not included).
-     * For instance, when there is no conversation with DongTaoBot and DongTaoBot has
+     * Get the previews related to the OdooBot (conversation not included).
+     * For instance, when there is no conversation with OdooBot and OdooBot has
      * a request, it should display a preview in the systray messaging menu.
      *
      * @param {string|undefined} [filter]
@@ -39,7 +39,7 @@ var MailBotService =  AbstractService.extend({
             return [];
         }
         var previews = [{
-            title: _t("DongTaoBot has a request"),
+            title: _t("OdooBot has a request"),
             imageSRC: "/mail/static/src/img/odoobot.png",
             status: 'bot',
             body:  _t("Enable desktop notifications to chat"),
@@ -49,7 +49,7 @@ var MailBotService =  AbstractService.extend({
         return previews;
     },
     /**
-     * Tell whether DongTaoBot is requesting to enable push notifications.
+     * Tell whether OdooBot is requesting to enable push notifications.
      *
      * @returns {boolean}
      */

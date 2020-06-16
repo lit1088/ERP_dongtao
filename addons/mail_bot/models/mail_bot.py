@@ -45,7 +45,7 @@ class MailBot(models.AbstractModel):
                 return _("Not a cute dog, but you get it 😊<br/>To access special features, <b>start your sentence with '/'</b>. Try to get help.")
             elif odoobot_state == 'onboarding_command' and command == 'help':
                 self.env.user.odoobot_state = "onboarding_ping"
-                return _("Wow you are a natural!<br/>Ping someone to grab its attention with @nameoftheuser. <b>Try to ping me using @DongTaoBot</b> in a sentence.")
+                return _("Wow you are a natural!<br/>Ping someone to grab its attention with @nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence.")
             elif odoobot_state == 'onboarding_ping' and self._is_bot_pinged(values):
                 self.env.user.odoobot_state = "idle"
                 return _("Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat window</b>. Enjoy discovering Odoo.")
@@ -56,7 +56,7 @@ class MailBot(models.AbstractModel):
             elif odoobot_state == "idle" and body in ['❤️', _('i love you'), _('love')]:
                 return _("Aaaaaw that's really cute but, you know, bots don't work that way. You're too human for me! Let's keep it professional ❤️")
             elif odoobot_state == "idle" and (('help' in body) or _('help') in body):
-                return _("I'm just a bot... :( You can check <a href=\"https://www.baidu.com/page/docs\">our documentation</a>) for more information!")
+                return _("I'm just a bot... :( You can check <a href=\"https://www.odoo.com/page/docs\">our documentation</a>) for more information!")
             elif _('fuck') in body or "fuck" in body:
                 return _("That's not nice! I'm a bot but I have feelings... 💔")
             else:
@@ -76,7 +76,7 @@ class MailBot(models.AbstractModel):
                     _("Sorry I'm sleepy. Or not! Maybe I'm just trying to hide my unawareness of human language...<br/>I can show you features if you write")+ ": '<b>"+_('start the tour')+"</b>'.",
                 ])
         elif self._is_bot_pinged(values):
-            return random.choice([_("Yep, DongTaoBot is in the place!"), _("Pong.")])
+            return random.choice([_("Yep, OdooBot is in the place!"), _("Pong.")])
         return False
 
     def _body_contains_emoji(self, body):

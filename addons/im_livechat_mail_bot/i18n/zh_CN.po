@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat_mail_bot
-#
+# 
 # Translators:
 # Martin Trigaux, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # keecome <7017511@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
@@ -46,8 +46,8 @@ msgstr "不确定你在做什么。请按：等待命题。选择其中一个并
 
 #. module: im_livechat_mail_bot
 #: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__odoobot_state
-msgid "DongTaoBot Status"
-msgstr "DongTaoBot 状态"
+msgid "OdooBot Status"
+msgstr "OdooBot 状态"
 
 #. module: im_livechat_mail_bot
 #: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__odoobot_state__onboarding_canned

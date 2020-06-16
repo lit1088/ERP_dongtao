@@ -13,7 +13,7 @@ from werkzeug import url_encode
 from odoo import api, models, tools
 
 
-DEST_SERVER_URL = 'https://www.baidu.com'
+DEST_SERVER_URL = 'https://www.odoo.com'
 _logger = logging.getLogger(__name__)
 
 
@@ -43,7 +43,7 @@ class Users(models.Model):
         self.ensure_one()
         db_secret = self.env['ir.config_parameter'].sudo().get_param('database.secret').encode('utf-8')
         db_uuid = self.env['ir.config_parameter'].sudo().get_param('database.uuid')
-        message = (db_uuid + self.env.user.email).encode('utf-8')
+        message = (db_uuid + self.env.user.email).encode('utf-8') 
         return hmac.new(db_secret, message, sha1).hexdigest()
 
     def _get_referral_link(self, reset_count=False):

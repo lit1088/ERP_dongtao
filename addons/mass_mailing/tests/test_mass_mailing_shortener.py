@@ -101,7 +101,7 @@ Email: <a id="url4" href="mailto:test@odoo.com">test@odoo.com</h1>
 
         self.assertTrue("https://www.odoo.tz/my/User" in short0.url, 'URL mismatch')
         self.assertEqual(short1.url, "https://www.odoo.be", 'URL mismatch')
-        self.assertEqual(short2.url, "https://www.baidu.com", 'URL mismatch')
+        self.assertEqual(short2.url, "https://www.odoo.com", 'URL mismatch')
         self.assertEqual(short3.url, "https://www.odoo.eu", 'URL mismatch')
 
         _xbody = etree.fromstring(sent_messages[1].body)
@@ -124,7 +124,7 @@ Email: <a id="url4" href="mailto:test@odoo.com">test@odoo.com</h1>
 
         self.assertTrue("https://www.odoo.tz/my/User" in _short0.url, 'URL mismatch')
         self.assertEqual(_short1.url, "https://www.odoo.be", 'URL mismatch')
-        self.assertEqual(_short2.url, "https://www.baidu.com", 'URL mismatch')
+        self.assertEqual(_short2.url, "https://www.odoo.com", 'URL mismatch')
         self.assertEqual(_short3.url, "https://www.odoo.eu", 'URL mismatch')
 
         self.assertNotEqual(short0.url, _short0.url)

@@ -8,7 +8,7 @@
     'sequence': 90,
     'summary': 'Track your recruitment pipeline',
     'description': "",
-    'website': 'https://www.baidu.com/page/recruitment',
+    'website': 'https://www.odoo.com/page/recruitment',
     'depends': [
         'hr',
         'calendar',

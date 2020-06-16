@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* im_support
-#
+# 
 # Translators:
 # Martin Trigaux, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
@@ -10,7 +10,7 @@
 # snow wang <147156565@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Jeffery CHEN <jeffery9@gmail.com>, 2019
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
@@ -47,10 +47,10 @@ msgstr "IM 测试支持"
 #: code:addons/im_support/static/src/js/support_channel.js:0
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.baidu.com/help' "
+"None of our operators are available. <a href='https://www.odoo.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
-"无运营商可用。现在 <a href='https://www.baidu.com/help' "
+"无运营商可用。现在 <a href='https://www.odoo.com/help' "
 "target='_blank'>提交一个服务单</a>来上报问题。"
 
 #. module: im_support

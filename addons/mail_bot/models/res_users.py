@@ -14,7 +14,7 @@ class Users(models.Model):
             ('onboarding_ping', 'Onboarding ping'),
             ('idle', 'Idle'),
             ('disabled', 'Disabled'),
-        ], string="DongTaoBot Status", readonly=True, required=True, default="not_initialized")  # keep track of the state: correspond to the code of the last message sent
+        ], string="OdooBot Status", readonly=True, required=True, default="not_initialized")  # keep track of the state: correspond to the code of the last message sent
 
     def __init__(self, pool, cr):
         """ Override of __init__ to add access rights.
