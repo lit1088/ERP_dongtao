@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
@@ -11,7 +11,7 @@
 # John An <johnxan@163.com>, 2019
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # as co02 <asco02@163.com>, 2020
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
@@ -85,7 +85,7 @@ msgstr "HTTP 路由"
 msgid ""
 "Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
-msgstr "您好,<br/>Odoo的自助功能帮助员工高效协作，您可查看其他功能.<br/><b>请尝试输入笑脸符号看看效果</b>"
+msgstr "您好,<br/>东涛机器人的自助功能帮助员工高效协作，您可查看其他功能.<br/><b>请尝试输入笑脸符号看看效果</b>"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -177,14 +177,14 @@ msgstr "没有权限在该设备上发送本地通知。"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
+msgid "DongTaoBot Status"
 msgstr "小秘书状态"
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:0
 #, python-format
-msgid "OdooBot has a request"
+msgid "DongTaoBot has a request"
 msgstr "小秘书有请求"
 
 #. module: mail_bot
@@ -266,7 +266,7 @@ msgstr "用户"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @OdooBot</b> in a sentence."
+"@nameoftheuser. <b>Try to ping me using @DongTaoBot</b> in a sentence."
 msgstr "哇,就是兄dei你了！用@姓名来吸引别人的注意力。尝试用句子中的@小秘书 来关注我。"
 
 #. module: mail_bot
@@ -280,7 +280,7 @@ msgstr "您好, 我在! 🎉 <br/>浏览完成, 您可以 <b>关闭聊天窗口<
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
 #, python-format
-msgid "Yep, OdooBot is in the place!"
+msgid "Yep, DongTaoBot is in the place!"
 msgstr "漂亮，就在这里等着您来体验！"
 
 #. module: mail_bot

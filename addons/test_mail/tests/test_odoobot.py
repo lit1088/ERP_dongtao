@@ -24,7 +24,7 @@ class TestOdoobot(BaseFunctionalTest, MockEmails, TestRecipients):
             'partner_ids': [],
             'subtype': 'mail.mt_comment'
         }
-        cls.odoobot_ping_body = '<a href="http://odoo.com/web#model=res.partner&amp;id=%s" class="o_mail_redirect" data-oe-id="%s" data-oe-model="res.partner" target="_blank">@OdooBot</a>' % (cls.odoobot.id, cls.odoobot.id)
+        cls.odoobot_ping_body = '<a href="http://odoo.com/web#model=res.partner&amp;id=%s" class="o_mail_redirect" data-oe-id="%s" data-oe-model="res.partner" target="_blank">@DongTaoBot</a>' % (cls.odoobot.id, cls.odoobot.id)
         cls.test_record_employe = cls.test_record.with_user(cls.user_employee)
 
     @mute_logger('odoo.addons.mail.models.mail_mail')
@@ -44,7 +44,7 @@ class TestOdoobot(BaseFunctionalTest, MockEmails, TestRecipients):
             self.assertNextMessage(
                 self.test_record_employe.with_context({'mail_post_autofollow': True}).message_post(**kwargs),
                 sender=self.odoobot,
-                answer=["Yep, OdooBot is in the place!"]
+                answer=["Yep, DongTaoBot is in the place!"]
             )
         # Odoobot should not be a follower but user_employee and user_admin should
         follower = self.test_record.message_follower_ids.mapped('partner_id')
@@ -81,7 +81,7 @@ class TestOdoobot(BaseFunctionalTest, MockEmails, TestRecipients):
         self.assertNextMessage(
             last_message,  # no message will be post with command help, use last odoobot message instead
             sender=self.odoobot,
-            answer=("@OdooBot",)
+            answer=("@DongTaoBot",)
         )
         # we dont test the end of the flow since it will depends of the installed apps (livechat)
         self.user_employee.odoobot_state = "idle"

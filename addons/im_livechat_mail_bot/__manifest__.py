@@ -2,10 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'OdooBot for livechat',
+    'name': 'DongTaoBot for livechat',
     'version': '1.0',
     'category': 'Discuss',
-    'summary': 'Add livechat support for OdooBot',
+    'summary': 'Add livechat support for DongTaoBot',
     'description': "",
     'website': 'https://www.odoo.com/page/discuss',
     'depends': ['mail_bot', 'im_livechat'],

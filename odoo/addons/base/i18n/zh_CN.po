@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base
-# 
+#
 # Translators:
 # 黎伟杰 <674416404@qq.com>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
@@ -62,7 +62,7 @@
 # guohuadeng <guohuadeng@hotmail.com>, 2020
 # as co02 <asco02@163.com>, 2020
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
@@ -9270,7 +9270,7 @@ msgstr "确切的下一号码"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
-msgid "Add OdooBot in discussions"
+msgid "Add DongTaoBot in discussions"
 msgstr "在讨论中加入OdooBot"
 
 #. module: base
@@ -9350,7 +9350,7 @@ msgstr "在群发邮件中添加UTM的主要或机会信息"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_im_livechat_mail_bot
-msgid "Add livechat support for OdooBot"
+msgid "Add livechat support for DongTaoBot"
 msgstr "添加OdooBot实时聊天支持"
 
 #. module: base
@@ -21164,13 +21164,13 @@ msgstr "Odoo将自动添加几个“0”在“下一个数字”的左侧以满�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
-msgid "OdooBot"
-msgstr "OdooBot"
+msgid "DongTaoBot"
+msgstr "DongTaoBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_livechat_mail_bot
-msgid "OdooBot for livechat"
-msgstr "即时聊天使用 OdooBot"
+msgid "DongTaoBot for livechat"
+msgstr "即时聊天使用 DongTaoBot"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_failures_dialog

@@ -2,10 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'OdooBot',
+    'name': 'DongTaoBot',
     'version': '1.0',
     'category': 'Discuss',
-    'summary': 'Add OdooBot in discussions',
+    'summary': 'Add DongTaoBot in discussions',
     'description': "",
     'website': 'https://www.odoo.com/page/discuss',
     'depends': ['mail'],
