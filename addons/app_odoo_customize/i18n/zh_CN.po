@@ -20,7 +20,7 @@ msgstr ""
 #: code:addons/app_odoo_customize/static/src/xml/res_config_edition.xml:0
 #, python-format
 msgid "(Sunpop.cn Professional Edition)"
-msgstr "(Sunpop.cn 专业版)"
+msgstr "(东涛专用)"
 
 #. module: app_odoo_customize
 #: model_terms:ir.ui.view,arch_db:app_odoo_customize.view_app_theme_config_settings
