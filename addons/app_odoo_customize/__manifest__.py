@@ -32,6 +32,7 @@
     'summary': """
     """,
     'description': """
+    东涛数字信息系统专用
     """,
     'images': ['static/description/banner.gif'],
     'depends': [
